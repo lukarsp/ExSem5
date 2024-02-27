@@ -58,7 +58,7 @@ header .wrapper {
 .logo {
     display: flex;
     align-items: center;
-    font: 700 3rem 'Nunito';
+    font: 700 3rem Nunito;
     text-decoration: none;
     color: #444;
     gap: 20px;
@@ -81,7 +81,7 @@ header .wrapper {
 
 .menu a {
     color: #000;
-    font: bold 0.875 'PT Sans' 'sans-serif' ;
+    font: bold 0.875 'PT Sans' sans-serif ;
     padding: 5px 10px;
     border: 2px solid rgba(255, 255, 255, 0);
 
@@ -120,7 +120,7 @@ header .wrapper {
     align-items:flex-start;
     min-height: 650px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     
 }
 
@@ -135,58 +135,55 @@ header .wrapper {
 .hero h1 {
     
     
-    font: 100 6.25rem/100% 'Nunito', 'sans-serif';
-    margin: 0 20 0;
+    font: 100 6.25rem/100% Nunito, sans-serif;
+    margin: 0 0 1.25rem 0;
     color: #F2545B;
+}
+/* ===== Numéro 5c ===== */
+
+.athletes {
+   padding: 6.25rem 0 6.25rem 0;
 }
 
 
 /* ===== Numéro 5a ===== */
-/*
+
 .athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
+   
+    font: bold 3.125rem Nunito, sans-serif ;
+    margin: 0 0 3.125rem 0;
+    letter-spacing: 0.05em;
 }
-*/
+
 
 /* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.athletes p {
+    margin: 0 0 3.125rem 0;
 }
-*/
+
+
+
 
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
-
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
 .athletes-photos img {
 
+    max-width: 100%;
 }
 
 /* ===== Numéro 5f ===== */
 .athlete1 {
+display: grid;
+grid-row: span 2;
+grid-column: span 2;
 
 }
 
@@ -198,33 +195,42 @@ footer {
 
 footer .wrapper {
 
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 0; 
 }
 
 /* ===== Numéro 6b ===== */
-/*
-.menu-social {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-right: 0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.menu-social {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   gap:10px;
 }
-*/
+
 
 
 /* ===== Numéro 6c ===== */
 
 footer .wrapper .menu-social a {
 
+    display: flex;
+    color: #fff;
+    background-color: #F2545B;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 100%
+
 }
 
+
+
 /* ===== Numéro 6d ===== */
-/*
+
 .menu-social a:hover {
     background: gray;
 }
-*/
