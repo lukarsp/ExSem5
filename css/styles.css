@@ -39,6 +39,11 @@ body {
 /*------------------------------------------------------------------------------
    Modules
 ------------------------------------------------------------------------------*/
+/* ===== Numéro 3f ===== */
+
+header {
+    padding: 20px 0px;
+}
 
 /* ===== Numéro 3a ===== */
 header .wrapper {
@@ -64,70 +69,61 @@ header .wrapper {
 .menu ul {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 
 /* ===== Numéro 3d ===== */
-/*
+
 .menu a {
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: 'PT Sans', sans-serif;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    color: #000;
+    font: bold 0.875 'PT Sans' 'sans-serif' ;
+    padding: 5px 10px;
+    border: 2px solid rgba(255, 255, 255, 0);
+
+    
+    /* On ne peut pas raccourcir*/
     text-transform: uppercase;
     text-decoration: none;
 }
-*/
+
 
 /* ===== Numéro 3e ===== */
-/*
-.menu a:hover {
-    border-top-color: #000;
-    border-right-color: black;
-    border-bottom-color: #000;
-    border-left-color: black;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-bottom-style: solid;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-}
-*/
 
-/* ===== Numéro 3f ===== */
-/*
-header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
+.menu a:hover {
+    border: 2px solid black;
 }
-*/
+
+
+
 
 /* ===== Numéro 4a ===== */
-/*
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
+   
+    background: url('../images/hero.jpg') no-repeat center right;
+    background-position: center;
+    height: 650px;
+    
 }
-*/
+
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 650px
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
-
+    max-block-size: 50%;
+    color: #fff;
 }
 
 /* ===== Numéro 4d ===== */
